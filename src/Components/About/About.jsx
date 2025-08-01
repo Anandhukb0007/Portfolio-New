@@ -9,7 +9,7 @@ const About = () => {
     >
       <div>
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
-        <div className="md:flex flex-wrap flex-col md:flex-row items-center gap-20 pt-6 pb-6">
+        <div className="md:flex flex-wrap flex-col md:flex-row items-center pt-6 pb-6">
           <img className="md:h-80" src={AboutImg} alt="About img" />
 
           
