@@ -1,6 +1,6 @@
 import React from "react";
 import bannerImg from "../../assets/photo-C8q0KQHG.webp";
-const ProjectCard = ({ title, main,demoLink, codeLink }) => {
+const ProjectCard = ({ title, main,demoLink, codeLink,bannerImg }) => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
